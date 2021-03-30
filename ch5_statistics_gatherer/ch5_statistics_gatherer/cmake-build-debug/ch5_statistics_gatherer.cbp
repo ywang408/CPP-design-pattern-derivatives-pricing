@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="ch5_statistics_gatherer"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/youwang/Desktop/FE545/codes/CPP-design-pattern-derivatives-pricing/ch5_statistics_gatherer/ch5_statistics_gatherer/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/youwang/Desktop/FE545/codes/CPP-design-pattern-derivatives-pricing/ch5_statistics_gatherer/ch5_statistics_gatherer/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/youwang/Desktop/FE545/codes/CPP-design-pattern-derivatives-pricing/ch5_statistics_gatherer/ch5_statistics_gatherer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/youwang/Desktop/FE545/codes/CPP-design-pattern-derivatives-pricing/ch5_statistics_gatherer/ch5_statistics_gatherer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/youwang/Desktop/FE545/codes/CPP-design-pattern-derivatives-pricing/ch5_statistics_gatherer/ch5_statistics_gatherer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/youwang/Desktop/FE545/codes/CPP-design-pattern-derivatives-pricing/ch5_statistics_gatherer/ch5_statistics_gatherer/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/youwang/Desktop/FE545/codes/CPP-design-pattern-derivatives-pricing/ch5_statistics_gatherer/ch5_statistics_gatherer/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/youwang/Desktop/FE545/codes/CPP-design-pattern-derivatives-pricing/ch5_statistics_gatherer/ch5_statistics_gatherer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/youwang/Desktop/FE545/codes/CPP-design-pattern-derivatives-pricing/ch5_statistics_gatherer/ch5_statistics_gatherer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/youwang/Desktop/FE545/codes/CPP-design-pattern-derivatives-pricing/ch5_statistics_gatherer/ch5_statistics_gatherer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/youwang/Desktop/FE545/codes/CPP-design-pattern-derivatives-pricing/ch5_statistics_gatherer/ch5_statistics_gatherer/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/youwang/Desktop/FE545/codes/CPP-design-pattern-derivatives-pricing/ch5_statistics_gatherer/ch5_statistics_gatherer/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/youwang/Desktop/FE545/codes/CPP-design-pattern-derivatives-pricing/ch5_statistics_gatherer/ch5_statistics_gatherer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/youwang/Desktop/FE545/codes/CPP-design-pattern-derivatives-pricing/ch5_statistics_gatherer/ch5_statistics_gatherer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/youwang/Desktop/FE545/codes/CPP-design-pattern-derivatives-pricing/ch5_statistics_gatherer/ch5_statistics_gatherer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ch5_statistics_gatherer">
+				<Option output="/Users/youwang/Desktop/FE545/codes/CPP-design-pattern-derivatives-pricing/ch5_statistics_gatherer/ch5_statistics_gatherer/cmake-build-debug/ch5_statistics_gatherer" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/youwang/Desktop/FE545/codes/CPP-design-pattern-derivatives-pricing/ch5_statistics_gatherer/ch5_statistics_gatherer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/youwang/Desktop/FE545/codes/CPP-design-pattern-derivatives-pricing/ch5_statistics_gatherer/ch5_statistics_gatherer/."/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/youwang/Desktop/FE545/codes/CPP-design-pattern-derivatives-pricing/ch5_statistics_gatherer/ch5_statistics_gatherer/cmake-build-debug/Makefile&quot;  VERBOSE=1 ch5_statistics_gatherer"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/youwang/Desktop/FE545/codes/CPP-design-pattern-derivatives-pricing/ch5_statistics_gatherer/ch5_statistics_gatherer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/youwang/Desktop/FE545/codes/CPP-design-pattern-derivatives-pricing/ch5_statistics_gatherer/ch5_statistics_gatherer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/youwang/Desktop/FE545/codes/CPP-design-pattern-derivatives-pricing/ch5_statistics_gatherer/ch5_statistics_gatherer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ch5_statistics_gatherer/fast">
+				<Option output="/Users/youwang/Desktop/FE545/codes/CPP-design-pattern-derivatives-pricing/ch5_statistics_gatherer/ch5_statistics_gatherer/cmake-build-debug/ch5_statistics_gatherer" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/youwang/Desktop/FE545/codes/CPP-design-pattern-derivatives-pricing/ch5_statistics_gatherer/ch5_statistics_gatherer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/youwang/Desktop/FE545/codes/CPP-design-pattern-derivatives-pricing/ch5_statistics_gatherer/ch5_statistics_gatherer/."/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/youwang/Desktop/FE545/codes/CPP-design-pattern-derivatives-pricing/ch5_statistics_gatherer/ch5_statistics_gatherer/cmake-build-debug/Makefile&quot;  VERBOSE=1 ch5_statistics_gatherer/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/youwang/Desktop/FE545/codes/CPP-design-pattern-derivatives-pricing/ch5_statistics_gatherer/ch5_statistics_gatherer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/youwang/Desktop/FE545/codes/CPP-design-pattern-derivatives-pricing/ch5_statistics_gatherer/ch5_statistics_gatherer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/youwang/Desktop/FE545/codes/CPP-design-pattern-derivatives-pricing/ch5_statistics_gatherer/ch5_statistics_gatherer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/youwang/Desktop/FE545/codes/CPP-design-pattern-derivatives-pricing/ch5_statistics_gatherer/ch5_statistics_gatherer/ConvergenceTable.cpp">
+			<Option target="ch5_statistics_gatherer"/>
+		</Unit>
+		<Unit filename="/Users/youwang/Desktop/FE545/codes/CPP-design-pattern-derivatives-pricing/ch5_statistics_gatherer/ch5_statistics_gatherer/ConvergenceTable.h">
+			<Option target="ch5_statistics_gatherer"/>
+		</Unit>
+		<Unit filename="/Users/youwang/Desktop/FE545/codes/CPP-design-pattern-derivatives-pricing/ch5_statistics_gatherer/ch5_statistics_gatherer/MCStatistics.cpp">
+			<Option target="ch5_statistics_gatherer"/>
+		</Unit>
+		<Unit filename="/Users/youwang/Desktop/FE545/codes/CPP-design-pattern-derivatives-pricing/ch5_statistics_gatherer/ch5_statistics_gatherer/MCStatistics.h">
+			<Option target="ch5_statistics_gatherer"/>
+		</Unit>
+		<Unit filename="/Users/youwang/Desktop/FE545/codes/CPP-design-pattern-derivatives-pricing/ch5_statistics_gatherer/ch5_statistics_gatherer/Parameters.cpp">
+			<Option target="ch5_statistics_gatherer"/>
+		</Unit>
+		<Unit filename="/Users/youwang/Desktop/FE545/codes/CPP-design-pattern-derivatives-pricing/ch5_statistics_gatherer/ch5_statistics_gatherer/Parameters.h">
+			<Option target="ch5_statistics_gatherer"/>
+		</Unit>
+		<Unit filename="/Users/youwang/Desktop/FE545/codes/CPP-design-pattern-derivatives-pricing/ch5_statistics_gatherer/ch5_statistics_gatherer/PayOff3.cpp">
+			<Option target="ch5_statistics_gatherer"/>
+		</Unit>
+		<Unit filename="/Users/youwang/Desktop/FE545/codes/CPP-design-pattern-derivatives-pricing/ch5_statistics_gatherer/ch5_statistics_gatherer/PayOff3.h">
+			<Option target="ch5_statistics_gatherer"/>
+		</Unit>
+		<Unit filename="/Users/youwang/Desktop/FE545/codes/CPP-design-pattern-derivatives-pricing/ch5_statistics_gatherer/ch5_statistics_gatherer/PayOffBridge.cpp">
+			<Option target="ch5_statistics_gatherer"/>
+		</Unit>
+		<Unit filename="/Users/youwang/Desktop/FE545/codes/CPP-design-pattern-derivatives-pricing/ch5_statistics_gatherer/ch5_statistics_gatherer/PayOffBridge.h">
+			<Option target="ch5_statistics_gatherer"/>
+		</Unit>
+		<Unit filename="/Users/youwang/Desktop/FE545/codes/CPP-design-pattern-derivatives-pricing/ch5_statistics_gatherer/ch5_statistics_gatherer/Random1.cpp">
+			<Option target="ch5_statistics_gatherer"/>
+		</Unit>
+		<Unit filename="/Users/youwang/Desktop/FE545/codes/CPP-design-pattern-derivatives-pricing/ch5_statistics_gatherer/ch5_statistics_gatherer/Random1.h">
+			<Option target="ch5_statistics_gatherer"/>
+		</Unit>
+		<Unit filename="/Users/youwang/Desktop/FE545/codes/CPP-design-pattern-derivatives-pricing/ch5_statistics_gatherer/ch5_statistics_gatherer/SimpleMC7.cpp">
+			<Option target="ch5_statistics_gatherer"/>
+		</Unit>
+		<Unit filename="/Users/youwang/Desktop/FE545/codes/CPP-design-pattern-derivatives-pricing/ch5_statistics_gatherer/ch5_statistics_gatherer/SimpleMC7.h">
+			<Option target="ch5_statistics_gatherer"/>
+		</Unit>
+		<Unit filename="/Users/youwang/Desktop/FE545/codes/CPP-design-pattern-derivatives-pricing/ch5_statistics_gatherer/ch5_statistics_gatherer/StatsMain2.cpp">
+			<Option target="ch5_statistics_gatherer"/>
+		</Unit>
+		<Unit filename="/Users/youwang/Desktop/FE545/codes/CPP-design-pattern-derivatives-pricing/ch5_statistics_gatherer/ch5_statistics_gatherer/Vanilla3.cpp">
+			<Option target="ch5_statistics_gatherer"/>
+		</Unit>
+		<Unit filename="/Users/youwang/Desktop/FE545/codes/CPP-design-pattern-derivatives-pricing/ch5_statistics_gatherer/ch5_statistics_gatherer/Vanilla3.h">
+			<Option target="ch5_statistics_gatherer"/>
+		</Unit>
+		<Unit filename="/Users/youwang/Desktop/FE545/codes/CPP-design-pattern-derivatives-pricing/ch5_statistics_gatherer/ch5_statistics_gatherer/Wrapper.h">
+			<Option target="ch5_statistics_gatherer"/>
+		</Unit>
+		<Unit filename="/Users/youwang/Desktop/FE545/codes/CPP-design-pattern-derivatives-pricing/ch5_statistics_gatherer/ch5_statistics_gatherer/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

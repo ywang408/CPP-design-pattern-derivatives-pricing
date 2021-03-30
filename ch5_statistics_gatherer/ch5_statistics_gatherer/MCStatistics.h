@@ -1,20 +1,3 @@
-//
-//  MCStatisitcs.h
-//  ch5_statistics_gatherer
-//
-//  Created by cheerzzh on 18/6/14.
-//  Copyright (c) 2014年 Jared Zhou. All rights reserved.
-//
-
-/*
- 
- -strategy pattern
- - method1: take in data for each path
- - method2: output the desired statistics
- -
- */
-
-
 #ifndef __ch5_statistics_gatherer__MCStatisitcs__
 #define __ch5_statistics_gatherer__MCStatisitcs__
 
@@ -50,4 +33,28 @@ private:
     unsigned long PathsDone;
 };
 
+class StatisticsFirst4thMoment: public StatisticsMC{
+public:
+    StatisticsFirst4thMoment();
+    virtual void DumpOneResult(double result);
+    virtual std::vector<std::vector<double>> GetResultsSoFar()const;
+    virtual StatisticsMC* clone() const;
+private:
+    double RunningSum;
+    double RunningSum2;
+    double RunningSum3;
+    double RunningSum4;
+    unsigned long PathsDone;
+};
+
+class StatisticsVaR: public StatisticsMC{
+public:
+    StatisticsVaR();
+    virtual void DumpOneResult(double result);
+    virtual std::vector<std::vector<double>> GetResultsSoFar()const;
+    virtual StatisticsMC* clone() const;
+private:
+    unsigned long PathDone;
+    std::vector<double> VaR;
+};
 #endif /* defined(__ch5_statistics_gatherer__MCStatisitcs__) */

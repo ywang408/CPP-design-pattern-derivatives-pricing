@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="ClionProject"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\..\..\usr\;CMake Files\..\..\..\..\..\..\..\..\usr\local\;CMake Files\..\..\..\..\..\..\..\..\usr\local\lib\;CMake Files\..\..\..\..\..\..\..\..\usr\local\lib\cmake\;CMake Files\..\..\..\..\..\..\..\..\usr\local\lib\cmake\Boost-1.75.0\;CMake Files\..\..\..\..\..\..\..\..\usr\local\lib\cmake\boost_headers-1.75.0\;CMake Files\..\..\..\..\..\..\..\..\usr\local\lib\cmake\boost_random-1.75.0\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/youwang/Desktop/FE545/codes/CPP-design-pattern-derivatives-pricing/ch6_random_number_class/ch6_random_number_class/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/youwang/Desktop/FE545/codes/CPP-design-pattern-derivatives-pricing/ch6_random_number_class/ch6_random_number_class/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/youwang/Desktop/FE545/codes/CPP-design-pattern-derivatives-pricing/ch6_random_number_class/ch6_random_number_class/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/youwang/Desktop/FE545/codes/CPP-design-pattern-derivatives-pricing/ch6_random_number_class/ch6_random_number_class/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/youwang/Desktop/FE545/codes/CPP-design-pattern-derivatives-pricing/ch6_random_number_class/ch6_random_number_class/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/youwang/Desktop/FE545/codes/CPP-design-pattern-derivatives-pricing/ch6_random_number_class/ch6_random_number_class/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/youwang/Desktop/FE545/codes/CPP-design-pattern-derivatives-pricing/ch6_random_number_class/ch6_random_number_class/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/youwang/Desktop/FE545/codes/CPP-design-pattern-derivatives-pricing/ch6_random_number_class/ch6_random_number_class/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/youwang/Desktop/FE545/codes/CPP-design-pattern-derivatives-pricing/ch6_random_number_class/ch6_random_number_class/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/youwang/Desktop/FE545/codes/CPP-design-pattern-derivatives-pricing/ch6_random_number_class/ch6_random_number_class/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/youwang/Desktop/FE545/codes/CPP-design-pattern-derivatives-pricing/ch6_random_number_class/ch6_random_number_class/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/youwang/Desktop/FE545/codes/CPP-design-pattern-derivatives-pricing/ch6_random_number_class/ch6_random_number_class/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/youwang/Desktop/FE545/codes/CPP-design-pattern-derivatives-pricing/ch6_random_number_class/ch6_random_number_class/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/youwang/Desktop/FE545/codes/CPP-design-pattern-derivatives-pricing/ch6_random_number_class/ch6_random_number_class/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/youwang/Desktop/FE545/codes/CPP-design-pattern-derivatives-pricing/ch6_random_number_class/ch6_random_number_class/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="MyExecutable">
+				<Option output="/Users/youwang/Desktop/FE545/codes/CPP-design-pattern-derivatives-pricing/ch6_random_number_class/ch6_random_number_class/cmake-build-debug/MyExecutable" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/youwang/Desktop/FE545/codes/CPP-design-pattern-derivatives-pricing/ch6_random_number_class/ch6_random_number_class/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DBOOST_ALL_NO_LIB"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/youwang/Desktop/FE545/codes/CPP-design-pattern-derivatives-pricing/ch6_random_number_class/ch6_random_number_class/cmake-build-debug/Makefile&quot;  VERBOSE=1 MyExecutable"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/youwang/Desktop/FE545/codes/CPP-design-pattern-derivatives-pricing/ch6_random_number_class/ch6_random_number_class/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/youwang/Desktop/FE545/codes/CPP-design-pattern-derivatives-pricing/ch6_random_number_class/ch6_random_number_class/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/youwang/Desktop/FE545/codes/CPP-design-pattern-derivatives-pricing/ch6_random_number_class/ch6_random_number_class/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="MyExecutable/fast">
+				<Option output="/Users/youwang/Desktop/FE545/codes/CPP-design-pattern-derivatives-pricing/ch6_random_number_class/ch6_random_number_class/cmake-build-debug/MyExecutable" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/youwang/Desktop/FE545/codes/CPP-design-pattern-derivatives-pricing/ch6_random_number_class/ch6_random_number_class/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DBOOST_ALL_NO_LIB"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/youwang/Desktop/FE545/codes/CPP-design-pattern-derivatives-pricing/ch6_random_number_class/ch6_random_number_class/cmake-build-debug/Makefile&quot;  VERBOSE=1 MyExecutable/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/youwang/Desktop/FE545/codes/CPP-design-pattern-derivatives-pricing/ch6_random_number_class/ch6_random_number_class/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/youwang/Desktop/FE545/codes/CPP-design-pattern-derivatives-pricing/ch6_random_number_class/ch6_random_number_class/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/youwang/Desktop/FE545/codes/CPP-design-pattern-derivatives-pricing/ch6_random_number_class/ch6_random_number_class/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/youwang/Desktop/FE545/codes/CPP-design-pattern-derivatives-pricing/ch6_random_number_class/ch6_random_number_class/AntiThetic.cpp">
+			<Option target="MyExecutable"/>
+		</Unit>
+		<Unit filename="/Users/youwang/Desktop/FE545/codes/CPP-design-pattern-derivatives-pricing/ch6_random_number_class/ch6_random_number_class/AntiThetic.h">
+			<Option target="MyExecutable"/>
+		</Unit>
+		<Unit filename="/Users/youwang/Desktop/FE545/codes/CPP-design-pattern-derivatives-pricing/ch6_random_number_class/ch6_random_number_class/Arrays.cpp">
+			<Option target="MyExecutable"/>
+		</Unit>
+		<Unit filename="/Users/youwang/Desktop/FE545/codes/CPP-design-pattern-derivatives-pricing/ch6_random_number_class/ch6_random_number_class/Arrays.h">
+			<Option target="MyExecutable"/>
+		</Unit>
+		<Unit filename="/Users/youwang/Desktop/FE545/codes/CPP-design-pattern-derivatives-pricing/ch6_random_number_class/ch6_random_number_class/ConvergenceTable.cpp">
+			<Option target="MyExecutable"/>
+		</Unit>
+		<Unit filename="/Users/youwang/Desktop/FE545/codes/CPP-design-pattern-derivatives-pricing/ch6_random_number_class/ch6_random_number_class/ConvergenceTable.h">
+			<Option target="MyExecutable"/>
+		</Unit>
+		<Unit filename="/Users/youwang/Desktop/FE545/codes/CPP-design-pattern-derivatives-pricing/ch6_random_number_class/ch6_random_number_class/MCStatistics.cpp">
+			<Option target="MyExecutable"/>
+		</Unit>
+		<Unit filename="/Users/youwang/Desktop/FE545/codes/CPP-design-pattern-derivatives-pricing/ch6_random_number_class/ch6_random_number_class/MCStatistics.h">
+			<Option target="MyExecutable"/>
+		</Unit>
+		<Unit filename="/Users/youwang/Desktop/FE545/codes/CPP-design-pattern-derivatives-pricing/ch6_random_number_class/ch6_random_number_class/Normals.cpp">
+			<Option target="MyExecutable"/>
+		</Unit>
+		<Unit filename="/Users/youwang/Desktop/FE545/codes/CPP-design-pattern-derivatives-pricing/ch6_random_number_class/ch6_random_number_class/Normals.h">
+			<Option target="MyExecutable"/>
+		</Unit>
+		<Unit filename="/Users/youwang/Desktop/FE545/codes/CPP-design-pattern-derivatives-pricing/ch6_random_number_class/ch6_random_number_class/Parameters.cpp">
+			<Option target="MyExecutable"/>
+		</Unit>
+		<Unit filename="/Users/youwang/Desktop/FE545/codes/CPP-design-pattern-derivatives-pricing/ch6_random_number_class/ch6_random_number_class/Parameters.h">
+			<Option target="MyExecutable"/>
+		</Unit>
+		<Unit filename="/Users/youwang/Desktop/FE545/codes/CPP-design-pattern-derivatives-pricing/ch6_random_number_class/ch6_random_number_class/ParkMiller.cpp">
+			<Option target="MyExecutable"/>
+		</Unit>
+		<Unit filename="/Users/youwang/Desktop/FE545/codes/CPP-design-pattern-derivatives-pricing/ch6_random_number_class/ch6_random_number_class/ParkMiller.h">
+			<Option target="MyExecutable"/>
+		</Unit>
+		<Unit filename="/Users/youwang/Desktop/FE545/codes/CPP-design-pattern-derivatives-pricing/ch6_random_number_class/ch6_random_number_class/PayOff3.cpp">
+			<Option target="MyExecutable"/>
+		</Unit>
+		<Unit filename="/Users/youwang/Desktop/FE545/codes/CPP-design-pattern-derivatives-pricing/ch6_random_number_class/ch6_random_number_class/PayOff3.h">
+			<Option target="MyExecutable"/>
+		</Unit>
+		<Unit filename="/Users/youwang/Desktop/FE545/codes/CPP-design-pattern-derivatives-pricing/ch6_random_number_class/ch6_random_number_class/PayOffBridge.cpp">
+			<Option target="MyExecutable"/>
+		</Unit>
+		<Unit filename="/Users/youwang/Desktop/FE545/codes/CPP-design-pattern-derivatives-pricing/ch6_random_number_class/ch6_random_number_class/PayOffBridge.h">
+			<Option target="MyExecutable"/>
+		</Unit>
+		<Unit filename="/Users/youwang/Desktop/FE545/codes/CPP-design-pattern-derivatives-pricing/ch6_random_number_class/ch6_random_number_class/Random2.cpp">
+			<Option target="MyExecutable"/>
+		</Unit>
+		<Unit filename="/Users/youwang/Desktop/FE545/codes/CPP-design-pattern-derivatives-pricing/ch6_random_number_class/ch6_random_number_class/Random2.h">
+			<Option target="MyExecutable"/>
+		</Unit>
+		<Unit filename="/Users/youwang/Desktop/FE545/codes/CPP-design-pattern-derivatives-pricing/ch6_random_number_class/ch6_random_number_class/Random3.cpp">
+			<Option target="MyExecutable"/>
+		</Unit>
+		<Unit filename="/Users/youwang/Desktop/FE545/codes/CPP-design-pattern-derivatives-pricing/ch6_random_number_class/ch6_random_number_class/Random3.h">
+			<Option target="MyExecutable"/>
+		</Unit>
+		<Unit filename="/Users/youwang/Desktop/FE545/codes/CPP-design-pattern-derivatives-pricing/ch6_random_number_class/ch6_random_number_class/RandomMain3.cpp">
+			<Option target="MyExecutable"/>
+		</Unit>
+		<Unit filename="/Users/youwang/Desktop/FE545/codes/CPP-design-pattern-derivatives-pricing/ch6_random_number_class/ch6_random_number_class/SimpleMC8.cpp">
+			<Option target="MyExecutable"/>
+		</Unit>
+		<Unit filename="/Users/youwang/Desktop/FE545/codes/CPP-design-pattern-derivatives-pricing/ch6_random_number_class/ch6_random_number_class/SimpleMC8.h">
+			<Option target="MyExecutable"/>
+		</Unit>
+		<Unit filename="/Users/youwang/Desktop/FE545/codes/CPP-design-pattern-derivatives-pricing/ch6_random_number_class/ch6_random_number_class/Vanilla3.cpp">
+			<Option target="MyExecutable"/>
+		</Unit>
+		<Unit filename="/Users/youwang/Desktop/FE545/codes/CPP-design-pattern-derivatives-pricing/ch6_random_number_class/ch6_random_number_class/Vanilla3.h">
+			<Option target="MyExecutable"/>
+		</Unit>
+		<Unit filename="/Users/youwang/Desktop/FE545/codes/CPP-design-pattern-derivatives-pricing/ch6_random_number_class/ch6_random_number_class/Wrapper.cpp">
+			<Option target="MyExecutable"/>
+		</Unit>
+		<Unit filename="/Users/youwang/Desktop/FE545/codes/CPP-design-pattern-derivatives-pricing/ch6_random_number_class/ch6_random_number_class/Wrapper.h">
+			<Option target="MyExecutable"/>
+		</Unit>
+		<Unit filename="/Users/youwang/Desktop/FE545/codes/CPP-design-pattern-derivatives-pricing/ch6_random_number_class/ch6_random_number_class/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/youwang/Desktop/FE545/codes/CPP-design-pattern-derivatives-pricing/ch6_random_number_class/ch6_random_number_class/../../../../../../../../usr/local/lib/cmake/BoostDetectToolset-1.75.0.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\usr\local\lib\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/youwang/Desktop/FE545/codes/CPP-design-pattern-derivatives-pricing/ch6_random_number_class/ch6_random_number_class/../../../../../../../../usr/local/lib/cmake/Boost-1.75.0/BoostConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\usr\local\lib\cmake\Boost-1.75.0\"/>
+		</Unit>
+		<Unit filename="/Users/youwang/Desktop/FE545/codes/CPP-design-pattern-derivatives-pricing/ch6_random_number_class/ch6_random_number_class/../../../../../../../../usr/local/lib/cmake/Boost-1.75.0/BoostConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\usr\local\lib\cmake\Boost-1.75.0\"/>
+		</Unit>
+		<Unit filename="/Users/youwang/Desktop/FE545/codes/CPP-design-pattern-derivatives-pricing/ch6_random_number_class/ch6_random_number_class/../../../../../../../../usr/local/lib/cmake/boost_headers-1.75.0/boost_headers-config-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\usr\local\lib\cmake\boost_headers-1.75.0\"/>
+		</Unit>
+		<Unit filename="/Users/youwang/Desktop/FE545/codes/CPP-design-pattern-derivatives-pricing/ch6_random_number_class/ch6_random_number_class/../../../../../../../../usr/local/lib/cmake/boost_headers-1.75.0/boost_headers-config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\usr\local\lib\cmake\boost_headers-1.75.0\"/>
+		</Unit>
+		<Unit filename="/Users/youwang/Desktop/FE545/codes/CPP-design-pattern-derivatives-pricing/ch6_random_number_class/ch6_random_number_class/../../../../../../../../usr/local/lib/cmake/boost_random-1.75.0/boost_random-config-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\usr\local\lib\cmake\boost_random-1.75.0\"/>
+		</Unit>
+		<Unit filename="/Users/youwang/Desktop/FE545/codes/CPP-design-pattern-derivatives-pricing/ch6_random_number_class/ch6_random_number_class/../../../../../../../../usr/local/lib/cmake/boost_random-1.75.0/boost_random-config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\usr\local\lib\cmake\boost_random-1.75.0\"/>
+		</Unit>
+		<Unit filename="/Users/youwang/Desktop/FE545/codes/CPP-design-pattern-derivatives-pricing/ch6_random_number_class/ch6_random_number_class/../../../../../../../../usr/local/lib/cmake/boost_random-1.75.0/libboost_random-variant-mt-shared.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\usr\local\lib\cmake\boost_random-1.75.0\"/>
+		</Unit>
+		<Unit filename="/Users/youwang/Desktop/FE545/codes/CPP-design-pattern-derivatives-pricing/ch6_random_number_class/ch6_random_number_class/../../../../../../../../usr/local/lib/cmake/boost_random-1.75.0/libboost_random-variant-mt-static.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\usr\local\lib\cmake\boost_random-1.75.0\"/>
+		</Unit>
+		<Unit filename="/Users/youwang/Desktop/FE545/codes/CPP-design-pattern-derivatives-pricing/ch6_random_number_class/ch6_random_number_class/../../../../../../../../usr/local/lib/cmake/boost_random-1.75.0/libboost_random-variant-shared.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\usr\local\lib\cmake\boost_random-1.75.0\"/>
+		</Unit>
+		<Unit filename="/Users/youwang/Desktop/FE545/codes/CPP-design-pattern-derivatives-pricing/ch6_random_number_class/ch6_random_number_class/../../../../../../../../usr/local/lib/cmake/boost_random-1.75.0/libboost_random-variant-static.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\usr\local\lib\cmake\boost_random-1.75.0\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

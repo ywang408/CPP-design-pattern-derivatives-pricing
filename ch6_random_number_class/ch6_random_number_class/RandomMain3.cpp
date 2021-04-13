@@ -30,7 +30,7 @@
 #include "MCStatistics.h"
 #include "ConvergenceTable.h"
 #include "AntiThetic.h"
-
+#include "Random3.h"
 using namespace std;
 
 int main()
@@ -77,7 +77,9 @@ int main()
     RandomParkMiller generator(1);
     
     AntiThetic GenTwo(generator);
-    
+
+    BoostRandom generator2(1);
+
     // for call option
     SimpleMonteCarlo6(theOption,
                       Spot,
@@ -85,7 +87,7 @@ int main()
                       rParam,
                       NumberOfPaths,
                       gathererTwo,
-                      GenTwo);
+                      generator2);
     vector<vector<double> > results = gathererTwo.GetResultsSoFar();
     
     cout <<"\nFor the call price the results are \n";

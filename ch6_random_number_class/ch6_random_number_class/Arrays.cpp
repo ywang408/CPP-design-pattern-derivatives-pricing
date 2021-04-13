@@ -54,7 +54,7 @@ Size(original.Size), Capacity(original.Size)
 
 MJArray::~MJArray()
 {
-	if (ValuesPtr >0)
+	if (ValuesPtr != 0)
 		delete [] ValuesPtr;
 }
 

@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/youwang/Desktop/FE545/codes/CPP-design-pattern-derivatives-pricing/ch6_random_number_class/ch6_random_number_class/Arrays.cpp
+Arrays.h
+/Users/youwang/Desktop/FE545/codes/CPP-design-pattern-derivatives-pricing/ch6_random_number_class/ch6_random_number_class/Arrays.h
+algorithm
+-
+numeric
+-
+
+/Users/youwang/Desktop/FE545/codes/CPP-design-pattern-derivatives-pricing/ch6_random_number_class/ch6_random_number_class/Arrays.h
+valarray
+-
+
